@@ -8,7 +8,7 @@ const api = axios.create({
 });
 
 const sheets = {
-    getUsers:()=>api.get("/user")
+    getOrganizadores:()=>api.get("/organizador"),
+    getEventos:()=>api.get("/evento")    
 }
-
 export default sheets;
